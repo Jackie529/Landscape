@@ -1,4 +1,4 @@
-<img width="1284" height="2778" alt="image" src="https://github.com/user-attachments/assets/bb4866f3-a099-468e-bd33-633d050a5ffc" /># Landscape
+# Landscape
 if (@available(iOS 14, *)) { __weak typeof(self) weakSelf = self; [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) { if (status == ATTrackingManagerAuthorizationStatusAuthorized) { [weakSelf.operationToServer submitAnalyticsEventCode:17 content:@"NULL"]; } else if (status != ATTrackingManagerAuthorizationStatusNotDetermined){ [weakSelf.operationToServer submitAnalyticsEventCode:18 content:@"NULL"]; } }]; }
 
 使用说明
